@@ -1,4 +1,4 @@
-//04단원 톺아보기
+//02단원 톺아보기
 /*
     01. window의 document 속성은 창이 포함한 문서를 참조한다.
     02. document는 모든 종류의 문서에 대한 공통의 속성과 메소드를 제공한다.
@@ -9,7 +9,7 @@
     05. textContent 속성은 노드가 포함하고 있는 텍스트 콘텐츠를 표현한다.
 */
 
-//04-0. document, methods
+//02-0. document, methods
 /*
     document는 문서(HTML, XML, SVG 등)에 대한 공통의 속성과 메소드를 제공한다.
     즉, 다양한 API(Application Programming Interface)를 제공한다.
@@ -17,7 +17,7 @@
     관련 문서 링크 참고( https://developer.mozilla.org/ko/docs/Web/API/Document )
 */
 
-//04-1. document.querySelector
+//02-1. document.querySelector
 /* 
     document.querySelector 메소드는
     선택자를 인자로 전달받아, 전달받은 선택자와 일치하는 문서 내 첫 번째 요소(Element)를 반환한다.
@@ -29,7 +29,7 @@
     Ex.3)class가 text인 요소 선택:  document.querySelector(".text");
 */
 
-//04-2. document.getelementByID
+//02-2. document.getelementByID
 /*
     document.getelementByID 메소드는
     id를 인자로 전달받아, 전달받은 선택자와 일치하는 문서 내 요소(Element)를 반환한다.
@@ -40,7 +40,7 @@
     Ex.1)id가 image인 요소를 선택: document.getElementByID("image");
 */
 
-//04-3. textContent
+//02-3. textContent
 /*
     textContent 속성은 해당 노드가 포함하고 있는 텍스트 콘텐츠를 표현하는 속성이다.
     textContent를 통해 요소가 포함한 텍스트를 읽을 수도, 변경할 수도 있다.
